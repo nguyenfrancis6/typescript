@@ -1,9 +1,9 @@
 "use strict";
-function calculateTax(income, taxYear = 2022) {
-    if (taxYear < 2022) {
-        return income * 1.2;
+let employee = {
+    id: 1,
+    name: "",
+    retire: (date) => {
+        console.log(date);
     }
-    return income * 1.3;
-}
-calculateTax(10000);
+};
 //# sourceMappingURL=index.js.map
